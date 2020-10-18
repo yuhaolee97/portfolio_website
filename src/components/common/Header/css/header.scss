@@ -10,15 +10,15 @@
 
 @keyframes in{ 
     from { width: 0; } 
-  } 
+} 
 
-  .fade-out-slow {
-      overflow: hidden;
-      width: 4.5em;
-      animation: out 4s steps(8, end);
-     background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-    height: 100vh;
-  }
+.fade-out-slow {
+  overflow: hidden;
+  width: 4.5em;
+  animation: out 4s steps(8, end);
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  height: 100vh;
+}
 
   @keyframes out{ 
     from { width: 4.5; }
@@ -49,9 +49,6 @@
 
 .header-class {
   background: black;
-  // background: #7F7FD5;  /* fallback for old browsers */
-  // background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-  // background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @keyframes animStar {

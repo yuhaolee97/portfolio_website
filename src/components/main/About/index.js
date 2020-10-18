@@ -1,8 +1,7 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
 import './css/about.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
-import { Button, Col, Row, Container, Image } from 'react-bootstrap';
+import { Col, Row, Container, Image } from 'react-bootstrap';
 import profile from './img/image.png'
 
  
@@ -24,7 +23,8 @@ const About = () => {
                 <Col md = {{ span: 10, offset: 1 }}>
             <p>
               <p3>
-                Hi! My name is Yu Hao. As a self-taught developer, I believe in lifelong learning and always strive for continuous improvement. I am passionate in Software Development, DevOps, CyberSecurity and developing awesome UIs. As a member of SMU Business Intelligence Analytics and WhiteHats, I am open to learning new and emerging technologies.  
+                Hi! My name is Yu Hao. As a self-taught developer, I believe in lifelong learning and always strive for continuous improvement. 
+                I am passionate in Software Development, data analytics and machine learning. As a member of SMU Business Intelligence Analytics and WhiteHats, I am open to learning new and emerging technologies.  
               </p3>
               </p>
               <p>

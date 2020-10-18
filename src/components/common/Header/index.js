@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 import './css/header.scss';
 import Typed from 'react-typed';
@@ -30,7 +30,6 @@ const Header = () => {
             </Typed>
             </h2>
         </div>
-        {/* <h2 className = {fadeState ? "fade-in-slow" : "fade-out-slow"}>YESSSSSS</h2> */}
     </div>
     )
 }

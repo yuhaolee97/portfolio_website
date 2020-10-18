@@ -4,7 +4,6 @@ import './css/index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileCode, faClock, faHandsHelping } from '@fortawesome/free-solid-svg-icons'
 import ScrollAnimation from 'react-animate-on-scroll';
-import ReactTable from 'react-table-6';
 
 
 const Achievements = () => {
@@ -15,7 +14,13 @@ const Achievements = () => {
                     <div className = "white-colour resume-break">
                         <h3 className = "line-break">READ SOME OF MY TESTIMONIALS</h3>
                     </div>
-                    <Button onClick="location.href = 'https://drive.google.com/file/d/1ldWlI_B0VzM1AyD58E_hhiAyxsTghJMG/view?usp=sharing';">Grab a copy</Button>
+                    <Button
+                        onClick={(e) => {
+                        e.preventDefault();
+                        window.location.href='https://drive.google.com/file/d/1ldWlI_B0VzM1AyD58E_hhiAyxsTghJMG/view?usp=sharing';
+                        }}> 
+                        Grab A Copy
+                    </Button>
                 </div>
             </div>
             <Container className = "bottom-break">
@@ -73,6 +78,9 @@ const Achievements = () => {
                     <hr/>
                     <div className = "bottom-break">
                         <div>
+                            Best College Hack for the International Hack-A-Solution Hackathon 2020 among 213 participants
+                        </div>
+                        <div>
                             2nd runner-up for Pythonic Heicoders Academy Contest 2020
                         </div>
                         <div>
@@ -121,6 +129,23 @@ const Achievements = () => {
                         <div>
                             Certificate of Merit for SMU Lets Code Program 2016
                         </div>
+                    </div>
+                    <h3 className = "resume-break">MY PROJECTS</h3>
+                    <hr/>
+                    <div className = "bottom-break">
+                        <div>
+                            Portfolio website utilising React, CSS and HTML. (Jul 2020 - Sep 2020)
+                        </div>
+                        <div>
+                            <a href = "https://github.com/yuhaolee97/portfolio_website">Github Link </a>
+                        </div>
+                        <div className = "padding-top">
+                            Prediction of stock prices using LSTM and autoregression models using Python, Pandas, Tensorflow and Keras. (Sep 2020 - Present)
+                        </div>
+                        <div>
+                            <a href = "https://github.com/yuhaolee97/stock-project">Github Link </a>
+                        </div>
+                        
                     </div>
                     </Col>
                     </Row>
