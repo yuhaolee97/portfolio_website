@@ -17,7 +17,7 @@ const Achievements = () => {
                     <Button
                         onClick={(e) => {
                         e.preventDefault();
-                        window.location.href='https://drive.google.com/file/d/18VP-dLeV1fHMxwJJB0fJ3KYs6NbICzEI/view?usp=sharing';
+                        window.location.href='https://drive.google.com/file/d/1695in_ONF9RJA_9_RELEOfVuWl1rhvdV/view?usp=sharing';
                         }}> 
                         Grab A Copy
                     </Button>
