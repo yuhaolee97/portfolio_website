@@ -84,6 +84,9 @@ const Achievements = () => {
                             2nd runner-up for Pythonic Heicoders Academy Contest 2020
                         </div>
                         <div>
+                            Top 20% of global participants in Google KickStart Round D 2020
+                        </div>
+                        <div>
                             3* Competitive Programmer in CodeChef (Peak rating of 1708)
                         </div>
                         <div>
@@ -115,6 +118,9 @@ const Achievements = () => {
                     <hr/>
                     <div className = "bottom-break">
                         <div>
+                            AI 200: Applied Machine Learning (Heicoders, Dec 2020)
+                        </div>
+                        <div>
                             Git Essential Training: The Basics Course (Linkedln, Jun 2020)
                         </div>
                         <div>
@@ -140,7 +146,7 @@ const Achievements = () => {
                             <a href = "https://github.com/yuhaolee97/portfolio_website">Github Link </a>
                         </div>
                         <div className = "padding-top">
-                            Prediction of stock prices using LSTM and autoregression models using Python, Pandas, Tensorflow and Keras. (Sep 2020 - Present)
+                            Prediction and analysis of stock prices using LSTM using Python, Pandas, Tensorflow and Keras. (Sep 2020 - Present)
                         </div>
                         <div>
                             <a href = "https://github.com/yuhaolee97/stock-project">Github Link </a>

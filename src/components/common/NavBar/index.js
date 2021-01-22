@@ -1,10 +1,11 @@
 import React from 'react';
 import {Navbar} from 'react-bootstrap'
+import './index.css';
 
 const NavBar = () => {
     return (
-    <Navbar bg="light" expand="lg" className = "blue-class">
-      <Navbar.Brand href="/portfolio_website">Yu Hao Lee</Navbar.Brand>
+    <Navbar expand="lg" className = "black-class">
+      <Navbar.Brand href="/portfolio_website" className = "top-nav-bar">Yu Hao Lee</Navbar.Brand>
     </Navbar>
     )
 }

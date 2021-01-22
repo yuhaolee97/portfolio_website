@@ -10,21 +10,21 @@ import profile from './img/image.png'
 
 const About = () => {
     return (
-        <div className = "grey-colour about">
-          <div className = "text-center break">
-              <h3> 
-                ABOUT ME 
-              </h3>
-          </div>
+        <div className = "about">
           <div className = "about text-center">
           <ScrollAnimation animateIn="fadeIn">
-            <Container className = "bottom-break word">
+            <Container className = "bottom-break word about">
               <Row>
-                <Col md = {{ span: 10, offset: 1 }}>
-            <p>
+                <Col md = "5" className = "yellow-class image">
+                  <Image src = {profile} height = {250} width = {180}></Image>
+                </Col>
+                <Col md = "6">
+                <h3> 
+                    ABOUT ME 
+                  </h3>
+              <p>
               <p3>
-                Hi! My name is Yu Hao. As a self-taught developer, I believe in lifelong learning and always strive for continuous improvement. 
-                I am passionate in Software Development, data analytics and machine learning. As a member of SMU Business Intelligence Analytics and WhiteHats, I am open to learning new and emerging technologies.  
+                I am passionate in Software Development, data analytics and machine learning. As a member of SMU Business Intelligence Analytics and WhiteHats, I push myself to learn the latest technologies. I am also an avid participant of hackathons as I love to build stuff. 
               </p3>
               </p>
               <p>
@@ -37,7 +37,6 @@ const About = () => {
                   In my free time, I enjoy listening to music, spending time with family and friends and cooking. 
                 </p3>
               </p>
-              <Image src = {profile} height = {250} width = {180}></Image>
               </Col>
               </Row>
             </Container>
