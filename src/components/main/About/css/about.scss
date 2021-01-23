@@ -1,3 +1,5 @@
+@import '../../../../shared/view.scss';
+
 .break {
     padding-top: 2.0em;
 }
@@ -11,3 +13,10 @@
     clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
     padding-top: 2.0em;
 }
+
+@media (max-width: $maxTabletSize) {
+    .image {
+      clip-path: none !important;
+      padding: 2.0em 0;
+    }
+  }

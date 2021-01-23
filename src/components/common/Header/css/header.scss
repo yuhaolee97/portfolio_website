@@ -6,11 +6,11 @@
 //   clip-path: ellipse(300px 450px at 1000px)
 // }
 
-.header-outer {
-  clip-path: polygon(0 50%, 34% 100%, 190% 0, 0 0);
-  // display: inline-block;
-  position: relative;
-}
+// .header-outer {
+//   clip-path: polygon(0 50%, 34% 100%, 190% 0, 0 0);
+//   // display: inline-block;
+//   position: relative;
+// }
 
 .header {
   // clip-path: polygon(0 90%, 50% 56%, 150% 0%, 0 0);
@@ -23,6 +23,13 @@
   background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
 
 }
+
+@media (max-width: $maxTabletSize) {
+  .header {
+    clip-path: polygon(0 70%, 34% 100%, 270% 0, 0 0) !important;
+  }
+}
+
 
 .fade-in-slow {
   overflow: hidden;
@@ -59,6 +66,15 @@
   width: 100%;
   display: table;
   overflow: hidden;
+}
+
+@media (max-width: $maxTabletSize) { 
+  .full-content { 
+    height: 100vh;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+  }
 }
 
 .words {

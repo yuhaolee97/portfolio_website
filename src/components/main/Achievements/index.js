@@ -84,6 +84,9 @@ const Achievements = () => {
                             2nd runner-up for Pythonic Heicoders Academy Contest 2020
                         </div>
                         <div>
+                            Global Top 50 Finish at BitByteGo CodeChef Competition 2020
+                        </div>
+                        <div>
                             Top 20% of global participants in Google KickStart Round D 2020
                         </div>
                         <div>
